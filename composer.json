@@ -1,0 +1,21 @@
+{
+    "name": "root/game",
+    "require": {
+        "phpspec/phpspec": "~2.1",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload":{
+        "psr-4":{
+            "Game\\":"src/Game"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos Vinicius",
+            "email": "vinicarlos56@hotmail.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    }
+}
